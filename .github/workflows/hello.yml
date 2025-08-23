@@ -22,7 +22,7 @@ jobs:
       group: homelab
       labels: github-scale-set
     container:
-      image: ubuntu:22.04
+      image: ocr.jcan.dev/dh/ubuntu:jammy-20250714
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
